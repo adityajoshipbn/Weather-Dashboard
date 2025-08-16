@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌤 Weather Dashboard</h1>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="searchWeather()">Search</button>
+        </div>
+
+        <!-- Weather Display -->
+        <div id="weatherDisplay" class="hidden">
+            <h2 id="city"></h2>
+            <img id="weatherIcon" src="img/weather-icon.png" alt="Weather Icon">
+            <p id="temp"></p>
+            <p id="weather"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+
+    </div>
+
+    <div class="image-fader">
+        <img src="img/image1.jpg" />
+        <img src="img/image2.jpg" />
+        <img src="img/image3.jpg" />
+        <img src="img/image4.jpg" />
+    </div>
+
+    <footer>
+        <p>Copyright by Harshal Ingale. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
